@@ -1,0 +1,51 @@
+.container{
+    margin: 30px;
+}
+
+table, th, td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 80%;
+    text-align: left;
+    padding: 6px;
+
+}
+td{
+    font-size: 15px;
+}
+tr:hover{
+    background-color: rgb(190, 43, 67);
+    color: aliceblue;
+}
+/* button css */
+.sign{
+    background-color: blue;
+    color: azure;
+    font-size: 17px;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.signup{
+    background-color: brown;
+    color: azure;
+    font-size: 17px;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.disable{
+    background-color: green;
+    color: azure;
+    font-size: 17px;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor:not-allowed
+}
